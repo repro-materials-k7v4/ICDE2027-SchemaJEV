@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+work/
+figures/figures/
+figures/appendix/
+figures/paper_figures.pdf
+*.pt
+*.safetensors
+*.npz
+*.npy

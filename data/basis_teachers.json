@@ -1,0 +1,687 @@
+{
+  "64": [
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_842036966024153fdc05_r64_s42_v1",
+      "views": [
+        "dbpedia14__choice",
+        "trec__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "b27bff1fd4b1140e06f9d8ee087e0f269dca3ce7b311c9cb61e2d514444d052a"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_fdd766ff50616a66aa16_r64_s42_v1",
+      "views": [
+        "snips__binary",
+        "social_iqa__choice",
+        "webnlg_human__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "8c740e90f2579423b2711b05f71418edfad5588ce0414cbe46a57d4b137fe28d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_3690a3c4f1d0c61afdaf_r64_s42_v1",
+      "views": [
+        "dbpedia14__choice",
+        "tqa__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "a95efe6cfd45565a7c73f5300c3eb39c371206c6e331e4264e06970ce1eb0ee6"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_8a5dc60cff540486fbdb_r64_s42_v1",
+      "views": [
+        "cmu_mosei__binary",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "687c8c34cf60c95a81f7aab464b86949d7462e13d5928efb6d5665c3d3f86f4e"
+    }
+  ],
+  "128": [
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_842036966024153fdc05_r64_s42_v1",
+      "views": [
+        "dbpedia14__choice",
+        "trec__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "b27bff1fd4b1140e06f9d8ee087e0f269dca3ce7b311c9cb61e2d514444d052a"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_fdd766ff50616a66aa16_r64_s42_v1",
+      "views": [
+        "snips__binary",
+        "social_iqa__choice",
+        "webnlg_human__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "8c740e90f2579423b2711b05f71418edfad5588ce0414cbe46a57d4b137fe28d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_3690a3c4f1d0c61afdaf_r64_s42_v1",
+      "views": [
+        "dbpedia14__choice",
+        "tqa__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "a95efe6cfd45565a7c73f5300c3eb39c371206c6e331e4264e06970ce1eb0ee6"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_8a5dc60cff540486fbdb_r64_s42_v1",
+      "views": [
+        "cmu_mosei__binary",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "687c8c34cf60c95a81f7aab464b86949d7462e13d5928efb6d5665c3d3f86f4e"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_b0614686413e78dcdb9f_r64_s42_v1",
+      "views": [
+        "aoa_kuperman__score",
+        "liar__binary",
+        "winogrande__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "2c80cd6a7f4acec3d4fb6ccaaaeb91a65704a64dd7137648ce1646b5953c5600"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_score_pair_841c1415cf0a159a3218_r64_s42_v1",
+      "views": [
+        "imdb__score",
+        "simpeval__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "20011c2e7171ab349046a3c0ca35de4514e77b92f11f753e8ecfca6d98fbbf1a"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_cfc7be2182909511993d_r64_s42_v1",
+      "views": [
+        "dynahate__binary",
+        "pit2015__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "5604292cdb026672a41ead29be00f760cfdd0c52964bcee52e0f2dc15b0afde2"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_9b915f1c6bfa4a515e59_r64_s42_v1",
+      "views": [
+        "art__choice",
+        "empathetic_dialogues__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "3d00e72fc2f2ce0731d0a13b7cacd32897b752836fa542ab2bef097dc20053e2"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_4be7417eddf960ae0036_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "news_headlines_sarcasm__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "8ea9349b4162bd0ae2ba9377f5fccfc946c1e35002298abe136bca02c714606c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_a717145f1d310b291061_r64_s42_v1",
+      "views": [
+        "ethos__score",
+        "measuring_hate_speech__binary",
+        "quarel__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "f4bb3895a12050c7912b8ef94b72e87831fd347903da3647e781ac5403e42da1"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_24baa7ad27466b2b9865_r64_s42_v1",
+      "views": [
+        "holistic_dialogue__score",
+        "meld__choice",
+        "scitail__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "ee6628bf57a907e20e9aa391471688f7202f718a5e39b61b86cb674017deff2e"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_b89ce3ea9c20b3192bdb_r64_s42_v1",
+      "views": [
+        "aoa_kuperman__score",
+        "mnli__binary",
+        "sciq__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "f7e542a0b7e0e3f6ed917444079a1059d3717e69cdd889157d9a2a00332ca3ee"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_acdd1d0057a4646800ab_r64_s42_v1",
+      "views": [
+        "civil_comments__score",
+        "cmu_mosei__binary",
+        "winogrande__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "8613a5cbd5204c8ca708b4c55c28876c91dd07f92a407d780941ad6190765e24"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_4b21c72c7dc00c8e4583_r64_s42_v1",
+      "views": [
+        "scitail__binary",
+        "spamassassin__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "82936825ebf0e629ba568c97e229c385d25ce8695c324203303e43afb1b275b9"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_3ee22472c275c0cf22ec_r64_s42_v1",
+      "views": [
+        "ethos__binary",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "82e0f55be9a25745f825fe912ada99e00e7a7408f6746b6d5d47d76e053765c2"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_9530239d3a862a490b51_r64_s42_v1",
+      "views": [
+        "semeval2018_task3_irony__binary",
+        "snli__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "800d311c1df0698a6e894573258d7e9f2baadafbbbd61bf445f3cc18fa369631"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_756ceffbd1dcfb76e05a_r64_s42_v1",
+      "views": [
+        "meld__choice",
+        "rose__score",
+        "strategyqa__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "1a04edef1b4640a6b9484644f200ddbec4134ba96f78fb561cab881e4d503953"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_3d22abe54a66eb5bdff4_r64_s42_v1",
+      "views": [
+        "scienceqa__choice",
+        "strategyqa__binary",
+        "webnlg_human__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "32d774ca73dcca443204632907926ec4dfac13a71d76ca77940f6e404d9d9270"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_71feac71370dc4739388_r64_s42_v1",
+      "views": [
+        "folio__binary",
+        "rose__score",
+        "trec__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "bdb7905b7a75e6e18c93cade11224c41ee1f329e01d7ee382530a00d28ae160e"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_dedf29d2a2e08c64a227_r64_s42_v1",
+      "views": [
+        "dynahate__binary",
+        "scientsbank__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "5b89f4c21e2fdb11bf2e6914d807b3b193e00c52a4f4d1375e53a76c17d02f12"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_657f7cda877738e286f6_r64_s42_v1",
+      "views": [
+        "cefr_sp__score",
+        "ethos__binary",
+        "financial_phrasebank__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "7e1aa87a8b4d6ef914cf57ffc10472ae76c852a8bccfb1a6e034b048a3597464"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_1140a8a669f151156b25_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "mnli__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e15e21da1c214126818f63b98cf33043c08df66ff0419c6d69ba782b7537140b"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_93f54aeaf850ca6635c0_r64_s42_v1",
+      "views": [
+        "measuring_hate_speech__binary",
+        "scientsbank__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "8c0c27cebae8daf8484a7fb783d999c5a72b4ada9a870c01996aa0837c191f8c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_a02c3564bc7a6e5eadd8_r64_s42_v1",
+      "views": [
+        "liar__binary",
+        "multipit__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e8a837c16e295d9e85491da3d8d7eee5688d05e7a7ca0ed78bce9b06565dd4b2"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_6f53211727c21661176a_r64_s42_v1",
+      "views": [
+        "pit2015__binary",
+        "semeval2018_task3_irony__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "9237e194ad6b34a423840f677f39ee6d699060c8fd909c688126e211fe4463de"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_1c925cf40619bff73611_r64_s42_v1",
+      "views": [
+        "fed__score",
+        "snli__binary",
+        "tqa__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "a89d234a67617d7c3d236acf2c3a4933661593c679cc6668804a26c473edbd31"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_50ac396e21a63e0a1500_r64_s42_v1",
+      "views": [
+        "cmu_mosei__binary",
+        "spamassassin__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "f983005317b00aa6844913d24ff630d42866b451d7d7b046da913c52148fcdb4"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_32fc6b4b30a1b9916712_r64_s42_v1",
+      "views": [
+        "dynahate__binary",
+        "multipit__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "9b985b7af52f84a04852d95f29c7df2773f6dedcf5a6dec82a38495b8140532d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_a9743f38d2cf9091f7e0_r64_s42_v1",
+      "views": [
+        "scitail__binary",
+        "snli__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "b3e58f7f56d67c445ef35a9895e9336f42549de8b029474f7b1201a415a640ba"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_e693fdb3d4cc81671666_r64_s42_v1",
+      "views": [
+        "scientsbank__binary",
+        "strategyqa__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "ed5bbb6aedaf6e91d54e897c073342db2ddb7d1a4c68a4b74d373cb788665c50"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_472bf2fadd608949a01f_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "multipit__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "d38ca624f5662aee8017a87e7d04e0c1559efbf900438ec18e0bc2d1e556ea7d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary4_2945618020f826efa8af_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "ethos__binary",
+        "fever__binary",
+        "pit2015__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "7cb8fec46357af17a581a3864fb95c4b65669c1bc258a29aa7d61e8c246aad5c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_341c3a5dfee644ddc9ef_r64_s42_v1",
+      "views": [
+        "cosmosqa__choice",
+        "meld__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "34e92dcdd5d74a549c868c0ce1006774284ce0e4e519f7ffcb51c016898cba84"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_7568a62f0e97945cfc88_r64_s42_v1",
+      "views": [
+        "ethos__binary",
+        "fever__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "849bbdcc2e13498d5c8d62175ab87e904ff62deb624d050919962dd3bb0de636"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_8e6cb9e752d39602e359_r64_s42_v1",
+      "views": [
+        "mutual__choice",
+        "semeval2018_task3_irony__binary",
+        "simpeval__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "7ce2f61eb3a13500454bd801971237ac4c5937647be19f5a671017478944c8fe"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary4_c528c432db5652c607d2_r64_s42_v1",
+      "views": [
+        "measuring_hate_speech__binary",
+        "mnli__binary",
+        "news_headlines_sarcasm__binary",
+        "snli__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "fa54c3b1b69f938880d9ff84835bd5df7d10b64b4e2e909106370e826d5a34f1"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_36ba6165973c7e1b5d06_r64_s42_v1",
+      "views": [
+        "epitome__score",
+        "liar__choice",
+        "snli__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "f0f07ade99ddda75e08f7e65177a0e0914c7d87012f9346137c4268318ddc6fd"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_d18a879180ae9c54e5de_r64_s42_v1",
+      "views": [
+        "sick__score",
+        "snli__choice",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "40747e4bc5727459175de432572b9c619707c14381b1ff917f24e805170e1208"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_de65f053d14a0f317db8_r64_s42_v1",
+      "views": [
+        "foodcom_reviews__score",
+        "mnli__choice",
+        "pit2015__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "1078eca7e58ab471298a63b10d5a8f35cad5d86470a611028f250cd9c02ddda9"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_6612b91d9fa2925f9fe4_r64_s42_v1",
+      "views": [
+        "art__choice",
+        "emobank__score",
+        "ethos__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "ad516ebe383df48345d63c7e891d77782c1a48bfeae96445163d914994b4d821"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_336fcd9dfe9c7b674f7e_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "empathetic_dialogues__choice",
+        "newsroom_human__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "27718f5265fcb2ebc0d12a3fbde7f6a8603a93c19405dd9000aa95d48173d1e8"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_4473af4ed8691a609ec8_r64_s42_v1",
+      "views": [
+        "financial_phrasebank__choice",
+        "gug__score",
+        "multipit__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "0ff043d007b661eaeea3c5474703ee1952449219aef01d556fa7adc46ebe824d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_49d479e97c877a54b7fe_r64_s42_v1",
+      "views": [
+        "mnli__binary",
+        "pit2015__binary"
+      ],
+      "selected_epoch": 1,
+      "factor_sha256": "7383b41b3003e487a8ae311f58f06b4888294282757129626b959b716918593a"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary4_335da213b85fcc0ce667_r64_s42_v1",
+      "views": [
+        "mnli__binary",
+        "scitail__binary",
+        "semeval2018_task3_irony__binary",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 1,
+      "factor_sha256": "e9d363f17b767bf6a003d4f12f37bba2efb768e815b2dafb895aa916ca18695e"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_8b1f8787113bb46f04ee_r64_s42_v1",
+      "views": [
+        "ethos__binary",
+        "spamassassin__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "f682f27943165a7d2260e7280358b4c48ec133e2053bc889a13e77597aeae4bb"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_47528bffc9aa26875766_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "scientsbank__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e9037418aecf508bd65522ef276c3981f7e18a554ae1d5ce7db56f93cf257dcf"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_score_pair_d2e5c313b2ec45dbbddb_r64_s42_v1",
+      "views": [
+        "foodcom_reviews__score",
+        "holistic_dialogue__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e89a44c31ebd4e304029ae12aeedc71c60737e68dfbd538043e49d82a182027c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_6df4982bd93f2ac4bb0f_r64_s42_v1",
+      "views": [
+        "art__choice",
+        "fever__binary",
+        "gug__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e5b5a44b640bc9009746f6ab8eb22bb3ca32295765af43e8f04ee52b48331741"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_9ba6ecf7ec24b799cc3e_r64_s42_v1",
+      "views": [
+        "mutual__choice",
+        "social_iqa__choice"
+      ],
+      "selected_epoch": 1,
+      "factor_sha256": "998485be91c7d03b7fa5ec5e353472475edef6afc59c02a1b0c80e64ffb7bfd6"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_865b3a53218314a068dd_r64_s42_v1",
+      "views": [
+        "cosmosqa__choice",
+        "newsroom_human__score",
+        "scientsbank__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "2a690a92b9dbc0e219f475406b8f0e397494ec8c8926b22cfca539b5b3d96835"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_a2336096a716351ec614_r64_s42_v1",
+      "views": [
+        "news_headlines_sarcasm__binary",
+        "pit2015__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "b3976fe710a0e049dad2e3403acde6323bb0a3c6cad735d647056052d71319fc"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_9fbfd05bdd8d918d1ced_r64_s42_v1",
+      "views": [
+        "sick__score",
+        "spamassassin__binary",
+        "swag__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "e35d3c7325c115aabe35610d5bfc61266dbd5f67e466feab4a699d7627340a1a"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_bb2aed511d2a49779044_r64_s42_v1",
+      "views": [
+        "mutual__choice",
+        "pit2015__binary",
+        "simpeval__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "07b95c0b5a07a02b19f0a2549e111a9740a3246a74db2896441afb0ced3d5018"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_score_pair_4093c499804f7ab63486_r64_s42_v1",
+      "views": [
+        "civil_comments__score",
+        "fed__score"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "5e93ed3fed4c9d85410bd8dbbaf90ca1eebedb97b0736d6cd33c02630bd46ba8"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_3e1756fed691f8d4099e_r64_s42_v1",
+      "views": [
+        "scitail__binary",
+        "snips__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "9c2add5c5f13483ca58277aae70e2a237c136daabe6101813ed6e9b59f639d7c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_74d56962b2a634b09bde_r64_s42_v1",
+      "views": [
+        "mnli__choice",
+        "sick__choice"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "e6d07e2f1e6a12929dfffb2df5d2db764708d0356c2ffa4c7bcdd4788618d888"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_839d9a41461f2bff566c_r64_s42_v1",
+      "views": [
+        "snli__binary",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "979774c628cf4263da3860dd66abf72d89ad77968a30c01e996849314ee01589"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_7a9376d0e3b953293c23_r64_s42_v1",
+      "views": [
+        "mnli__binary",
+        "snips__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "d9f9ddce4e5b9194e965874ebc7e6956a16cc1af3199c2208c1f2a6972b0c65e"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_aa0774c1774dee3b0177_r64_s42_v1",
+      "views": [
+        "folio__binary",
+        "multipit__binary"
+      ],
+      "selected_epoch": 1,
+      "factor_sha256": "e8a29e22a1001c70f867dc5c9ed0b17741dc491311d8511221ba99a3c517d818"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_e508d15b962c9adda765_r64_s42_v1",
+      "views": [
+        "semeval2018_task3_irony__binary",
+        "snips__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "c9dfadd32bab2908d429fb80758fbb1511fa4a0039a7337a6304c8ea7f183e4d"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_08bf186bf312d9817c6d_r64_s42_v1",
+      "views": [
+        "holistic_dialogue__score",
+        "mnli__binary",
+        "trec__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e1554bebe29bb581af5ce62efe52cf22a80eb54d1ad242d348136c655ff2dd19"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_487dd97b5966915339ad_r64_s42_v1",
+      "views": [
+        "ethos__score",
+        "spamassassin__binary",
+        "swag__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "543c90292aeec488de8fb1998b7a4e78fe93981ee363a6da7f5e3589e6f21cc4"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_09a8751c4a0b3d5999c6_r64_s42_v1",
+      "views": [
+        "dailydialog__binary",
+        "measuring_hate_speech__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "ae22c3116dbfa43217bbeec76c5a36397f6b28fc7a8273d47ca72b9956dcf35c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_c4714ef10191d07e2698_r64_s42_v1",
+      "views": [
+        "empathetic_dialogues__choice",
+        "realsumm__score",
+        "snips__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "07cdd05c932207af40f12a8cb43f4619224a9619dc60e1aef2587782ff462984"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_choice_pair_546346f12c1fdddf6415_r64_s42_v1",
+      "views": [
+        "meld__choice",
+        "scienceqa__choice"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "e2101fd2455884954201d130f836c51a4a12e0090c180fea9b801b53ccb366db"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_09310758ec76bf7c0b37_r64_s42_v1",
+      "views": [
+        "news_headlines_sarcasm__binary",
+        "spamassassin__binary"
+      ],
+      "selected_epoch": 3,
+      "factor_sha256": "3fba7be0863bfbc1eadbf9dba9c1d34128ee1f6af79f1ef86a50e8afdd643cc3"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_same_binary_pair_dd97ab405304e15ddd1e_r64_s42_v1",
+      "views": [
+        "ethos__binary",
+        "snips__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "7655de5e4f1a25a80fc241f11f86bbf6e314f359757f7901f296193bf6abde8c"
+    },
+    {
+      "teacher_id": "DualBase_NEW200_binary_choice_score_triplet_b0485ac018f92e06ea61_r64_s42_v1",
+      "views": [
+        "emobank__score",
+        "sick__choice",
+        "vitaminc__binary"
+      ],
+      "selected_epoch": 2,
+      "factor_sha256": "ccefa6c707d014ac2cb4703f810eb63e5f6e8d57f3262faaef013f2ffc1178c0"
+    }
+  ]
+}

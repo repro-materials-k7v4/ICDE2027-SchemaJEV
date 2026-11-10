@@ -1,0 +1,236 @@
+[
+  {
+    "view": "scienceqa__choice",
+    "cohort": "ID12",
+    "task_type": "choice",
+    "rows": 1581,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: text-only school science question answering. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+      "instruction": ""
+    },
+    "description_sha256": "14b68f18fe162e683fb80ced733d2143657d4cddcdec2ef38b460d9f1fe53456",
+    "mask_sha256": "170164533a28307427a5b57494cbe6a7bdb4552392b2df3bbeac6cb6216b0748",
+    "source_url": "https://github.com/lupantech/ScienceQA"
+  },
+  {
+    "view": "cosmosqa__choice",
+    "cohort": "ID12",
+    "task_type": "choice",
+    "rows": 1593,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: contextual reading and reasoning. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+      "instruction": ""
+    },
+    "description_sha256": "48b3608fe333fdb2075e3e2aae5593747142976dac5b2c8e9d27626d471669b7",
+    "mask_sha256": "c5f6c11e16b89e7436976c0e4794898ac56f552895d740b75638b68904a88393",
+    "source_url": "https://github.com/wilburOne/cosmosqa"
+  },
+  {
+    "view": "social_iqa__choice",
+    "cohort": "ID12",
+    "task_type": "choice",
+    "rows": 1600,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: social commonsense reasoning. Use the situation to choose among the three original answers. Select exactly one displayed option and output its option ID.",
+      "instruction": ""
+    },
+    "description_sha256": "f177c28df684c7d25a10cce299be78eaa56cf1aaea61e94ff774aa4d4956f3cc",
+    "mask_sha256": "6afc679906a9e7bc48b4bfae17a71b160636f9e3c9971748fba997c8d49503ac",
+    "source_url": "https://huggingface.co/datasets/allenai/social_i_qa"
+  },
+  {
+    "view": "sick__choice",
+    "cohort": "ID12",
+    "task_type": "choice",
+    "rows": 1776,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: natural language inference. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.\nThe sentence pairs probe compositional lexical, syntactic, and semantic relationships.",
+      "instruction": ""
+    },
+    "description_sha256": "934f4808ee2520bf20290654daca3e5c4b7fd4153c3d93e8ffb66642415d0047",
+    "mask_sha256": "66281dd5dbbb0a589dac63ab4119433fb84b2fc23e570f8771d94b97780bbc62",
+    "source_url": "https://zenodo.org/records/2787612"
+  },
+  {
+    "view": "news_headlines_sarcasm__binary",
+    "cohort": "ID12",
+    "task_type": "binary",
+    "rows": 1600,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary decision. Domain: irony or sarcasm detection. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.\nThe texts are news headlines.",
+      "instruction": ""
+    },
+    "description_sha256": "afdf788dbfa1fd42473990259a715242b10d7db1875400d6497a892d36356c7c",
+    "mask_sha256": "6afc679906a9e7bc48b4bfae17a71b160636f9e3c9971748fba997c8d49503ac",
+    "source_url": "https://github.com/rishabhmisra/News-Headlines-Dataset-For-Sarcasm-Detection"
+  },
+  {
+    "view": "liar__binary",
+    "cohort": "ID12",
+    "task_type": "binary",
+    "rows": 578,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary decision. Domain: fact-checked public claims. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+      "instruction": ""
+    },
+    "description_sha256": "b6da9184b69e052f9fa5a97f0db156cc8ef3542f158635d25abf37af57195d0a",
+    "mask_sha256": "b2c00a6bade21abffecd8a2157e20201987f44bf0fc22a495bcac8995f95ed62",
+    "source_url": "https://aclanthology.org/P17-2067/"
+  },
+  {
+    "view": "semeval2018_task3_irony__binary",
+    "cohort": "ID12",
+    "task_type": "binary",
+    "rows": 1534,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary decision. Domain: irony or sarcasm detection. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.\nThe texts are short social media posts.",
+      "instruction": ""
+    },
+    "description_sha256": "ad1400cae5206b9f8ee781d221e46456960dfaa9b982002b7965da7e6e31f10a",
+    "mask_sha256": "9222040dbed95a0974897203aa244b28af9fffd887845913f3f57a5bb2b16e39",
+    "source_url": "https://github.com/Cyvhee/SemEval2018-Task3"
+  },
+  {
+    "view": "measuring_hate_speech__binary",
+    "cohort": "ID12",
+    "task_type": "binary",
+    "rows": 747,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary decision. Domain: human-calibrated hate-speech judgment. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+      "instruction": ""
+    },
+    "description_sha256": "a7887a67d4b531a2ef0fc2e2e44170cc492b0f853497cca0fa7ebc159672e63d",
+    "mask_sha256": "4d0ddae3db892b6ea2c0167903b102f8c6b5c7f8148d03f2ee532ce516d412ae",
+    "source_url": "https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech"
+  },
+  {
+    "view": "holistic_dialogue__score",
+    "cohort": "ID12",
+    "task_type": "score",
+    "rows": 160,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: dialogue human quality. For the dimension named in the input, predict mean original human rating on1to5; appended automatic evaluation columns are not labels. Output a score in these original units; candidate grid spans 1 to 5.",
+      "instruction": ""
+    },
+    "description_sha256": "2b2f7238f1ab54486d6c4a450bfcf6ce6ba1f3bb86e8a37cdb373411e334d1f2",
+    "mask_sha256": "0862e4ebd19576a267e8963ad7e03c6e23a2dd49c028979e0e0a909824c8b8cb",
+    "source_url": "https://github.com/alexzhou907/dialogue_evaluation"
+  },
+  {
+    "view": "epitome__score",
+    "cohort": "ID12",
+    "task_type": "score",
+    "rows": 1210,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: empathic emotional reaction. Predict the original human ordinal empathy level:0no communication,1weak,2strong. Model candidate grid spans 0 to 2. Output a score in the stated original units.",
+      "instruction": ""
+    },
+    "description_sha256": "09aac542ce77cce96e8fc9e1df825827132360274d98fa66433d5e041daa154d",
+    "mask_sha256": "40e6d4b455b59fcfeb0fe2cb23ddc0d66c0aace8d53222b4003ae680a00d9e52",
+    "source_url": "https://github.com/behavioral-data/Empathy-Mental-Health"
+  },
+  {
+    "view": "cefr_sp__score",
+    "cohort": "ID12",
+    "task_type": "score",
+    "rows": 2396,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: sentence reading proficiency. Predict the mean of two original professional CEFR ordinal codes:1A1,2A2,3B1,4B2,5C1,6C2. These ordinal codes are not equal-interval continuous ability. Output a score in these original units; candidate grid spans 1 to 6.",
+      "instruction": ""
+    },
+    "description_sha256": "a40eec2f819f3653029a3568cd30112540458c9afa63283029ec6a577e3e5b5c",
+    "mask_sha256": "bab6f82cec40bc1919a5ceb2b6d2cc1addeedea112c859a9264fa6750e2db1b2",
+    "source_url": "https://github.com/yukiar/CEFR-SP"
+  },
+  {
+    "view": "realsumm__score",
+    "cohort": "ID12",
+    "task_type": "score",
+    "rows": 946,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: reference-based summary semantic content coverage. Predict the derived reference-based mean human positive SCU-coverage fraction on0to1, aggregated across released human annotation rows. This is not reference-free or an automatic metric. Output a score in these original units; candidate grid spans 0 to 1.",
+      "instruction": ""
+    },
+    "description_sha256": "9fc1f9886fe566f6ab3e2973578647d88b90928e0f339e06d6d530d102a904cf",
+    "mask_sha256": "fc394db077bbdbfcb1b6ed0b76fd8bcf0f537e1ac7eca0aa039ed3bf1e2e53cc",
+    "source_url": "https://github.com/neulab/REALSumm"
+  },
+  {
+    "view": "scotus__choice",
+    "cohort": "OOD6",
+    "task_type": "choice",
+    "rows": 2000,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification. Domain: United States Supreme Court issue-area classification. Use the 13 exact released category labels. Unverified semantic names have not been guessed. Select exactly one displayed option and output its option ID.",
+      "instruction": ""
+    },
+    "description_sha256": "b449d956121bd8107cbc8ec7fd07d77d9248e925325912fe6f0e73de37ec261f",
+    "mask_sha256": "494b15107deb77d9741606b7bddfecb8b350a486bb5a751655b294d4ebc6f1a4",
+    "source_url": "https://huggingface.co/datasets/coastalcph/lex_glue"
+  },
+  {
+    "view": "snips__choice",
+    "cohort": "OOD6",
+    "task_type": "choice",
+    "rows": 1594,
+    "description": {
+      "context": "[task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: assistant request intent. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+      "instruction": ""
+    },
+    "description_sha256": "ec7fad42ce2bd38c6b8dfeb38160fe3189dafcb73b4261081baa36630e648ae8",
+    "mask_sha256": "22d40cf7671bdf849e92e1ef8f837fbb09aaf35b0cd5847d9fb632660fa5c1a8",
+    "source_url": "https://github.com/sonos/nlu-benchmark/blob/master/2017-06-custom-intent-engines/README.md"
+  },
+  {
+    "view": "mrpc__binary",
+    "cohort": "OOD6",
+    "task_type": "binary",
+    "rows": 1468,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary paraphrase judgment. Domain: English news sentence pairs. Answer Yes when the sentences convey the same meaning and No otherwise. Output exactly No or Yes.",
+      "instruction": ""
+    },
+    "description_sha256": "7e1c33c1b4cc9ea0132387c91c346e5a56789dfb324170fdb618dbab5a1acab6",
+    "mask_sha256": "13082dea408028459526d13f6deac09b8562fa8d8168b62c57d801059e893911",
+    "source_url": "https://www.microsoft.com/en-us/research/publication/automatically-constructing-a-corpus-of-sentential-paraphrases/"
+  },
+  {
+    "view": "amazon_reviews2023__binary",
+    "cohort": "OOD6",
+    "task_type": "binary",
+    "rows": 3678,
+    "description": {
+      "context": "[task_type=binary]\nTask type: binary decision. Domain: product review satisfaction. Original1or2stars negative;4or5stars positive; neutral3excluded. Output exactly No or Yes.",
+      "instruction": ""
+    },
+    "description_sha256": "a8563721c5e30b1e76a82005aeac430712c9db54ab8c645f632bd68ed399f47e",
+    "mask_sha256": "e0c67c945ce30118739c337f8bf669b81cf6b769847ee251052063cb293b5fcd",
+    "source_url": "https://amazon-reviews-2023.github.io/main.html"
+  },
+  {
+    "view": "cmu_mosei__score",
+    "cohort": "OOD6",
+    "task_type": "score",
+    "rows": 1599,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: spoken opinion sentiment. Predict original human sentiment intensity on-3to3, from strongly negative to strongly positive. Text transcript only. Output a score in the stated original human units.",
+      "instruction": ""
+    },
+    "description_sha256": "dcc68c1094806d917ae5fcf4a63a890a5948007d14cd7145c7fe9d3a80e57ea1",
+    "mask_sha256": "dec02448e53a719c668d6e6f9f34168bddeb03fbeff4ebdef1868ff106f8963c",
+    "source_url": "https://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/"
+  },
+  {
+    "view": "amazon_reviews2023__score",
+    "cohort": "OOD6",
+    "task_type": "score",
+    "rows": 3986,
+    "description": {
+      "context": "[task_type=score]\nTask type: numerical human-rating prediction. Domain: product review satisfaction. Predict the original human1to5star rating. Output a score in the stated original human units.",
+      "instruction": ""
+    },
+    "description_sha256": "7721e9cc5460eafab6994008abf3feaaa299d1a1e1cb5b52a1a56e27bdfebc26",
+    "mask_sha256": "6d304cbb7cd7750d725baa132a240b9858fe035f900e61b75f5d0607bb93152f",
+    "source_url": "https://amazon-reviews-2023.github.io/main.html"
+  }
+]

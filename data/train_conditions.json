@@ -1,0 +1,242 @@
+{
+  "aoa_kuperman__score": {
+    "context": "[dataset_id=aoa_kuperman__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: human age-of-acquisition judgments. Predict the original human estimated acquisition age in years. The fixed 0 to 30 grid is operational support, not a theoretical age bound. Model candidate grid spans 0 to 30. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "art__choice": {
+    "context": "[dataset_id=art__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: abductive commonsense reasoning. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "cefr_sp__score": {
+    "context": "[dataset_id=cefr_sp__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: sentence reading proficiency. Predict the mean of two original professional CEFR ordinal codes:1A1,2A2,3B1,4B2,5C1,6C2. These ordinal codes are not equal-interval continuous ability. Output a score in these original units; candidate grid spans 1 to 6.",
+    "instruction": ""
+  },
+  "civil_comments__score": {
+    "context": "[dataset_id=civil_comments__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: human toxic-language judgment. Predict the original proportion of annotators rating this text toxic, on0to1. Model candidate grid spans 0 to 1. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "cmu_mosei__binary": {
+    "context": "[dataset_id=cmu_mosei__binary] [task_type=binary]\nTask type: binary decision. Domain: spoken opinion sentiment. Original human polarity sign; neutral zero excluded. Text transcript only. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "cosmosqa__choice": {
+    "context": "[dataset_id=cosmosqa__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: contextual reading and reasoning. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "dailydialog__binary": {
+    "context": "[dataset_id=dailydialog__binary] [task_type=binary]\nTask type: binary decision. Domain: question acts in everyday dialogue. Offline classification with the complete original dialogue, including subsequent utterances, for the stated target position. Yes means original act2 Question; Inform, Directive, and Commissive mean No. Act and emotion annotations are not input; this is not online causal inference or punctuation detection. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "dbpedia14__choice": {
+    "context": "[dataset_id=dbpedia14__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: entity ontology classification. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "dynahate__binary": {
+    "context": "[dataset_id=dynahate__binary] [task_type=binary]\nTask type: binary decision. Domain: hate-speech detection. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "ellipse__score": {
+    "context": "[dataset_id=ellipse__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: English learner essay quality. Predict the original human overall writing score on1to5. Model candidate grid spans 1 to 5. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "emobank__score": {
+    "context": "[dataset_id=emobank__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: emotional valence of English text. Predict valence on the original 1 to 5 scale, where 1 is very negative and 5 is very positive. Output a score on this scale.",
+    "instruction": ""
+  },
+  "empathetic_dialogues__choice": {
+    "context": "[dataset_id=empathetic_dialogues__choice] [task_type=choice]\nTask type: multiple-choice classification. Domain: emotion in empathetic dialogue. Infer the situation-level emotion from the situation and utterance. The annotated context label is not input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "epitome__score": {
+    "context": "[dataset_id=epitome__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: empathic emotional reaction. Predict the original human ordinal empathy level:0no communication,1weak,2strong. Model candidate grid spans 0 to 2. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "ethos__binary": {
+    "context": "[dataset_id=ethos__binary] [task_type=binary]\nTask type: binary decision. Domain: hate speech. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "ethos__score": {
+    "context": "[dataset_id=ethos__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: human hate-speech judgment. Predict the original human hate-vote fraction,0 means no raters and1 means all raters. Model candidate grid spans 0 to 1. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "fed__score": {
+    "context": "[dataset_id=fed__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: dialogue overall quality. Predict the original mean human Overall score on0to4. FED automatic-model scores are not labels. Output a score in these original units; candidate grid spans 0 to 4.",
+    "instruction": ""
+  },
+  "fever__binary": {
+    "context": "[dataset_id=fever__binary] [task_type=binary]\nTask type: binary decision. Domain: factual claim verification. Derived closed-book factual-claim judgment from original SUPPORTS/REFUTES annotations; this input does not include retrieved Wikipedia evidence. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "financial_phrasebank__choice": {
+    "context": "[dataset_id=financial_phrasebank__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: financial-news sentiment. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "folio__binary": {
+    "context": "[dataset_id=folio__binary] [task_type=binary]\nTask type: binary decision. Domain: formal logical inference. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "foodcom_reviews__score": {
+    "context": "[dataset_id=foodcom_reviews__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: recipe-review satisfaction. Predict original human review rating on1to5. Model candidate grid spans 1 to 5. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "gug__score": {
+    "context": "[dataset_id=gug__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: sentence grammaticality. Predict the original human mean grammaticality rating on1to4. Model candidate grid spans 1 to 4. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "hellaswag__choice": {
+    "context": "[dataset_id=hellaswag__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: everyday event continuation. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "holistic_dialogue__score": {
+    "context": "[dataset_id=holistic_dialogue__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: dialogue human quality. For the dimension named in the input, predict mean original human rating on1to5; appended automatic evaluation columns are not labels. Output a score in these original units; candidate grid spans 1 to 5.",
+    "instruction": ""
+  },
+  "humicroedit__score": {
+    "context": "[dataset_id=humicroedit__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: humor in edited news headlines. Predict original mean humor grade on0to3. Model candidate grid spans 0 to 3. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "imdb__score": {
+    "context": "[dataset_id=imdb__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: movie review sentiment. Predict the original filename rating on1to10; binary labels are not converted to scores. Output a score in the stated original human units.",
+    "instruction": ""
+  },
+  "lancaster_sensorimotor__score": {
+    "context": "[dataset_id=lancaster_sensorimotor__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: visual sensorimotor strength of English expressions. Predict original human visual-strength mean on 0 to 5, where 0 is not experienced through vision and 5 is strongly experienced. Model candidate grid spans 0 to 5. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "liar__binary": {
+    "context": "[dataset_id=liar__binary] [task_type=binary]\nTask type: binary decision. Domain: fact-checked public claims. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "liar__choice": {
+    "context": "[dataset_id=liar__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: factual truthfulness of public claims. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "measuring_hate_speech__binary": {
+    "context": "[dataset_id=measuring_hate_speech__binary] [task_type=binary]\nTask type: binary decision. Domain: human-calibrated hate-speech judgment. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "meld__choice": {
+    "context": "[dataset_id=meld__choice] [task_type=choice]\nTask type: multiple-choice classification. Domain: emotion in television dialogue. Use transcript text and speaker only; original multimodal human emotion labels are retained without audio or video. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "mnli__binary": {
+    "context": "[dataset_id=mnli__binary] [task_type=binary]\nTask type: binary decision. Domain: natural language entailment. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "mnli__choice": {
+    "context": "[dataset_id=mnli__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: natural language inference. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "multipit__binary": {
+    "context": "[dataset_id=multipit__binary] [task_type=binary]\nTask type: binary decision. Domain: sentence-pair paraphrase. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "mutual__choice": {
+    "context": "[dataset_id=mutual__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: multi-turn dialogue response selection. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "news_headlines_sarcasm__binary": {
+    "context": "[dataset_id=news_headlines_sarcasm__binary] [task_type=binary]\nTask type: binary decision. Domain: irony or sarcasm detection. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "newsroom_human__score": {
+    "context": "[dataset_id=newsroom_human__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: summary fluency. Predict original human summary fluency on1to5. Model candidate grid spans 1 to 5. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "pit2015__binary": {
+    "context": "[dataset_id=pit2015__binary] [task_type=binary]\nTask type: binary decision. Domain: Twitter sentence paraphrases. Original author TRAIN mapping:3to5 positive votes means paraphrase;0or1 means non-paraphrase. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "quarel__choice": {
+    "context": "[dataset_id=quarel__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: qualitative reasoning with the two alternatives written in the question. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "realsumm__score": {
+    "context": "[dataset_id=realsumm__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: reference-based summary semantic content coverage. Predict the derived reference-based mean human positive SCU-coverage fraction on0to1, aggregated across released human annotation rows. This is not reference-free or an automatic metric. Output a score in these original units; candidate grid spans 0 to 1.",
+    "instruction": ""
+  },
+  "rose__score": {
+    "context": "[dataset_id=rose__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: summary semantic content coverage. Predict the original human ACU recall fraction on0to1; normalized_acu and machine metrics are not the target. Output a score in these original units; candidate grid spans 0 to 1.",
+    "instruction": ""
+  },
+  "scienceqa__choice": {
+    "context": "[dataset_id=scienceqa__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: text-only school science question answering. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "scientsbank__binary": {
+    "context": "[dataset_id=scientsbank__binary] [task_type=binary]\nTask type: binary decision. Domain: science short-answer correctness. The original reference answers are provided as a rubric. Correct means Yes; each of the other four original expert accuracy labels means No. The accuracy annotation itself is not input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "sciq__choice": {
+    "context": "[dataset_id=sciq__choice] [task_type=choice]\nTask type: multiple-choice science question answering. Domain: school-level science. Select exactly one correct answer from the displayed options. Output one option ID.",
+    "instruction": ""
+  },
+  "scitail__binary": {
+    "context": "[dataset_id=scitail__binary] [task_type=binary]\nTask type: binary decision. Domain: scientific textual entailment. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "semeval2018_task3_irony__binary": {
+    "context": "[dataset_id=semeval2018_task3_irony__binary] [task_type=binary]\nTask type: binary decision. Domain: irony or sarcasm detection. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "sick__choice": {
+    "context": "[dataset_id=sick__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: natural language inference. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "sick__score": {
+    "context": "[dataset_id=sick__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: English sentence-pair semantic relatedness. Predict relatedness on the original 1 to 5 scale, where 1 means unrelated and 5 means equivalent meaning. Output a score on this scale.",
+    "instruction": ""
+  },
+  "simpeval__score": {
+    "context": "[dataset_id=simpeval__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: sentence simplification quality. Predict original mean human quality rating on0to100; do not use z-score or automated values. Model candidate grid spans 0 to 100. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "snips__binary": {
+    "context": "[dataset_id=snips__binary] [task_type=binary]\nTask type: binary decision. Domain: assistant music-playback intent. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "snli__binary": {
+    "context": "[dataset_id=snli__binary] [task_type=binary]\nTask type: binary decision. Domain: natural language entailment. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "snli__choice": {
+    "context": "[dataset_id=snli__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: natural language inference. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "social_iqa__choice": {
+    "context": "[dataset_id=social_iqa__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: social commonsense reasoning. Use the situation to choose among the three original answers. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "spamassassin__binary": {
+    "context": "[dataset_id=spamassassin__binary] [task_type=binary]\nTask type: binary decision. Domain: email spam detection. Message subject and textual MIME bodies only; no sender-class folder metadata or executable content. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "strategyqa__binary": {
+    "context": "[dataset_id=strategyqa__binary] [task_type=binary]\nTask type: binary decision. Domain: commonsense yes-or-no reasoning. Answer the stated yes-or-no question from the supplied input. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "swag__choice": {
+    "context": "[dataset_id=swag__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: everyday event continuation. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "tqa__choice": {
+    "context": "[dataset_id=tqa__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: text-only textbook science questions. Use released processedText for the original question and options plus the complete retained lesson text. No diagram is fetched or interpreted. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "trec__choice": {
+    "context": "[dataset_id=trec__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: question answer-type classification. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  },
+  "vitaminc__binary": {
+    "context": "[dataset_id=vitaminc__binary] [task_type=binary]\nTask type: binary decision. Domain: factual claim verification. Judge whether the provided evidence supports rather than refutes this claim. Output exactly No or Yes.",
+    "instruction": ""
+  },
+  "webnlg_human__score": {
+    "context": "[dataset_id=webnlg_human__score] [task_type=score]\nTask type: numerical human-rating prediction. Domain: data-to-text fluency. Predict original mean human fluency on1to3. Automated metric columns are not labels. Model candidate grid spans 1 to 3. Output a score in the stated original units.",
+    "instruction": ""
+  },
+  "winogrande__choice": {
+    "context": "[dataset_id=winogrande__choice] [task_type=choice]\nTask type: multiple-choice classification or question answering. Domain: pronoun and reference resolution. Choose the answer or class supported by the input. Select exactly one displayed option and output its option ID.",
+    "instruction": ""
+  }
+}
