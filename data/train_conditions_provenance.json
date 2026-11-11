@@ -1,0 +1,18 @@
+{
+  "arm": "B_NO_ID",
+  "source_map_sha256": "424771cde328b27b2c172f795ae10aa07a844c577da2192bd34e9fc7f40c5552",
+  "training_source_sha256": "c57203f223c454f6959a9539e259a358eebc460731a91b12c6e3dda81fd39cdf",
+  "training_completion_sha256": "2aeead6777f1eb9441a8acbf1ed2f64ad2d5ada2c92f49cc3de7e63a36388ec7",
+  "view_count": 60,
+  "explicit_dataset_id_prefix_in_model_text": false,
+  "descriptions_unique": 60,
+  "verbatim_named_reference": {
+    "fed__score": "FED automatic-model scores are not labels."
+  },
+  "verified_student_seeds": [
+    42,
+    43,
+    44
+  ],
+  "same_conditions_map_for_all_three_seeds": true
+}
