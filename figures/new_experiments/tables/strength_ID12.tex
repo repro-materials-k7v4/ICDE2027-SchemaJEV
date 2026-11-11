@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Fixed-checkpoint adapter-strength sensitivity on ID12. Values are mean $\pm$ sample SD; Choice and Binary are percentages, and Score is NMAE $\times100$. Strength scales every decoded $B$ factor, retaining $A$. The $s=0$ point is one new zero-$B$ evaluation; the other points use three seeds.}
+\label{tab:adapter-strength-id12}
+\begin{tabular}{ccrrr}
+\toprule
+$s$ & $n$ & Choice $\uparrow$ & Binary $\uparrow$ & Score $\downarrow$ \\
+\midrule
+0 & 1 & $39.40$ & $54.12$ & $26.47$ \\
+0.25 & 3 & $57.42 \pm 0.45$ & $64.25 \pm 0.53$ & $17.32 \pm 0.31$ \\
+0.5 & 3 & $63.60 \pm 0.15$ & $71.43 \pm 1.31$ & $13.66 \pm 0.21$ \\
+0.75 & 3 & $66.39 \pm 0.29$ & $75.89 \pm 0.88$ & $12.27 \pm 0.11$ \\
+1 & 3 & $67.74 \pm 0.30$ & $77.56 \pm 0.53$ & $11.89 \pm 0.13$ \\
+1.25 & 3 & $68.17 \pm 0.15$ & $77.31 \pm 0.71$ & $12.17 \pm 0.30$ \\
+1.5 & 3 & $67.82 \pm 0.33$ & $76.73 \pm 0.75$ & $12.88 \pm 0.45$ \\
+2 & 3 & $65.64 \pm 0.60$ & $74.91 \pm 0.16$ & $15.17 \pm 0.51$ \\
+\bottomrule
+\end{tabular}
+\end{table}

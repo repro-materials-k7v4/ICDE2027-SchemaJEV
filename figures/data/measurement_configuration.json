@@ -1,0 +1,62 @@
+{
+  "schema": "schemajev-final-evaluation-figure-scalars-v1",
+  "evaluation_views": 18,
+  "evaluation_records": 30046,
+  "ordered_identity_sha256": "8124ed954d29f63d03b5cc280e221b5db126abbd64ddf3fe1afc34aeb4b9f6c0",
+  "evaluation_descriptions": "../../data/eval_views.json",
+  "primary_units_in_CSV": "fractions; all primary plots multiply by100, including NMAE",
+  "native_NLL_units": "unscaled",
+  "student_seeds": [
+    42,
+    43,
+    44
+  ],
+  "deterministic_control_n": 1,
+  "macro_weighting": "equal view weights within each cohort/task type and seed; then mean/sample SD across seeds",
+  "ID12": "four held-out views per decision type",
+  "OOD6": "two task-transfer views per decision type; not corpus-disjoint",
+  "generator_parameters": 929984,
+  "rank": 64,
+  "teachers": 60,
+  "K": 60,
+  "R_updates": 1000,
+  "CE_updates": 200,
+  "lambda": 0,
+  "KD": 0,
+  "R_head_trunk_learning_rates": [
+    0.01,
+    0.0003
+  ],
+  "CE_head_trunk_learning_rates": [
+    0.0003,
+    3e-05
+  ],
+  "optimizer": "fresh AdamW at each phase; warmup10 then constant; weight_decay0; clip1",
+  "training_time_scope": "original student CUDA-synchronized R and CE phase times; excludes teachers, basis fitting, startup and evaluation",
+  "exposure_per_update": {
+    "R_teacher_description_pairs": 4,
+    "CE_task_records": 80
+  },
+  "plot_sizes_inches": {
+    "column": 3.5,
+    "text": 7.16
+  },
+  "plot_font": "Times-compatible serif",
+  "line_width": 1.2,
+  "main_display": "dataset primary means, n3 trained/n1 frozen; per-seed CSVs and sample-SD companion table",
+  "K_display": "fixed60 teacher bank; primary figure paired favorable changes fromK1; raw separate-axis appendix",
+  "expanded_library": "64/128 teacher banks shown separately from fixed60 K sweep",
+  "description_interventions": {
+    "seeds": [
+      43,
+      44
+    ],
+    "n": 2,
+    "only_generator_description_changes": true,
+    "query_options_gold_and_masks_fixed": true,
+    "wrong_type_changed_views": 5,
+    "wrong_type_unchanged_views": 13,
+    "random_text": "random gibberish; no word-order permutation",
+    "published_description_text": "only final main evaluation descriptions are provided in data/eval_views.json"
+  }
+}

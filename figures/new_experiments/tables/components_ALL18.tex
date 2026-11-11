@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Injection-site ablation on ALL18. Parentheses give the number of adapted sites: encoder means the decision model's 22 backbone layers; decision means its two Transformer decision layers, not the final scalar scorer. The description encoder stays frozen. Means and sample SD use three seeds, with one deterministic Backbone control. Score is NMAE $\times100$.}
+\label{tab:injection-sites}
+\begin{tabular}{lcrrr}
+\toprule
+Components & $n$ & Choice $\uparrow$ & Binary $\uparrow$ & Score $\downarrow$ \\
+\midrule
+Backbone (None) & 1 & $41.38$ & $56.82$ & $29.62$ \\
+Encoder only (88) & 3 & $60.77 \pm 0.62$ & $78.79 \pm 0.56$ & $11.98 \pm 0.15$ \\
+Decision only (8) & 3 & $41.36 \pm 0.03$ & $56.77 \pm 0.02$ & $29.92 \pm 0.01$ \\
+Full (96) & 3 & $60.80 \pm 0.62$ & $78.79 \pm 0.56$ & $12.01 \pm 0.19$ \\
+\bottomrule
+\end{tabular}
+\end{table}

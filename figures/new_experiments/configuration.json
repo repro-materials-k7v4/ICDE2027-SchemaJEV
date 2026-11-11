@@ -1,0 +1,111 @@
+{
+  "schema": "schemajev-three-mechanism-experiments-v1",
+  "checkpoints": "fixed main PCA-T2L CE200, seeds42,43,44",
+  "model": {
+    "teacher_count": 60,
+    "K": 60,
+    "native_rank": 64,
+    "student_trainable_parameters": 929984,
+    "reconstruction_updates": 1000,
+    "CE_updates": 200,
+    "balance_lambda": 0,
+    "KD_alpha": 0
+  },
+  "adapter_strength": {
+    "values": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "operator": "A unchanged; every decoded B multiplied by s",
+    "nonzero_seeds": [
+      42,
+      43,
+      44
+    ],
+    "zero_B_control_n": 1,
+    "original_s1_results_reused": true,
+    "extra_alpha_over_r": false
+  },
+  "component_ablation": {
+    "modes": [
+      "backbone",
+      "encoder_only",
+      "head_only",
+      "full"
+    ],
+    "encoder_sites": 88,
+    "decision_Transformer_sites": 8,
+    "scalar_scorer_has_adapter": false,
+    "description_encoder_frozen": true,
+    "trained_checkpoint_seeds": [
+      42,
+      43,
+      44
+    ],
+    "backbone_control_n": 1,
+    "no_retraining": true
+  },
+  "runtime": {
+    "checkpoint_seed": 43,
+    "GPU": "NVIDIA A800-SXM4-80GB",
+    "cold_processes": 3,
+    "cold_scope": "process/model initialization with original source/SHA/I/O/NUM validation; OS page cache not forced cold",
+    "resident_tasks": 18,
+    "warmup": 10,
+    "repeats_per_task_and_mode": 50,
+    "microbatch": "first native microbatch of up to four records",
+    "standalone_stage_times_additive": false,
+    "teacher_training_seconds": null,
+    "comparison_to_other_methods_latency_measured": false,
+    "nominal_padded_token_budget": 4096,
+    "oversized_singleton": {
+      "dataset": "scotus__choice",
+      "query_records": 1,
+      "max_padded_tokens": 6105
+    }
+  },
+  "reporting": {
+    "decision_types": [
+      "choice",
+      "binary",
+      "score"
+    ],
+    "choice": "accuracy",
+    "binary": "(accuracy+Yes-F1+balanced_accuracy)/3",
+    "score": "range-normalized MAE",
+    "plot_primary_multiplier": 100,
+    "NLL_multiplier": 1,
+    "macro": "dataset-equal within type/cohort and seed, then mean and sample SD across actual seeds",
+    "ID12": "four held-out task views per type",
+    "OOD6": "two task-transfer views per type; not guaranteed corpus-disjoint"
+  },
+  "learning_rates": {
+    "R": {
+      "coordinate_heads": 0.01,
+      "trunk": 0.0003
+    },
+    "CE": {
+      "coordinate_heads": 0.0003,
+      "trunk": 3e-05
+    },
+    "optimizer": "fresh AdamW per phase",
+    "warmup": 10,
+    "after_warmup": "constant",
+    "weight_decay": 0,
+    "gradient_clip": 1
+  },
+  "plotting": {
+    "single_column_inches": 3.5,
+    "text_width_inches": 7.16,
+    "labels_pt": 8,
+    "ticks_pt": 7,
+    "primary_score_display": "NMAE x100",
+    "storage_plot": "MiB; bytes retained in CSV"
+  }
+}

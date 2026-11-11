@@ -8,6 +8,8 @@ from pathlib import Path
 import re
 import tempfile
 
+from .evaluation_inputs import load_evaluation_views
+
 DATA = Path(__file__).resolve().parents[1] / "data"
 HEX = re.compile(r"[0-9a-f]{64}")
 FIELDS = ("dataset_id", "row_index", "native_record_id", "task_type", "canonical_input_sha256")
@@ -58,7 +60,7 @@ def split(index, output):
 
 
 def check_panel(index):
-    panel = json.loads((DATA / "eval_views.json").read_text())
+    panel = load_evaluation_views()
     digest = hashlib.sha256()
     counts = Counter()
     views = []

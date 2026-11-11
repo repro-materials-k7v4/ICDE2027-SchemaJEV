@@ -13,7 +13,44 @@ python -m pip install -r requirements.txt
 MPLBACKEND=Agg python figures/code/build.py
 ```
 
-Open `figures/paper_figures.pdf`. Individual figures and tables are written under `figures/figures/` and `figures/appendix/`. The inputs, including per-seed scalars, are in [figure_data.py](figures/code/figure_data.py).
+Open `figures/paper_figures.pdf`. Individual figures and tables are written under `figures/figures/` and `figures/appendix/`. The [committed CSV inputs](figures/data/) contain the current per-seed results for the fixed evaluation descriptions. The same command also rebuilds the three additional experiments under `figures/new_experiments/figures/`.
+
+### Final evaluation descriptions
+
+The [evaluation catalog](data/eval_views.json) contains the final 18 descriptions used for the released results, together with their per-description SHA-256 fingerprints. [Evaluation-input provenance](data/eval_conditions_provenance.json) specifies the canonical JSON hashing rule and the ordered view/mask contract. Verify these inputs without a GPU:
+
+```sh
+python -m schemajev.evaluation_inputs
+```
+
+Use the final catalog when integrating an evaluation runner:
+
+```python
+from schemajev.evaluation_inputs import load_evaluation_conditions
+
+conditions = load_evaluation_conditions()
+condition = conditions[view_id]
+# Pass this context/instruction object to the native conditioning API.
+text = model.conditioning_text(condition)
+```
+
+View IDs index the catalog; they are not concatenated into the model's description. Training descriptions remain in `data/train_conditions.json`. The evaluation description map is fixed across the compared description-conditioned methods; record masks, option order and score bins are unchanged. The bare-plus-description control prepends its catalog description to the query. The description-effect figures use paired seeds 43 and 44. The wrong-type map changes five views and leaves the other 13 unchanged; the other controlled corruptions cover all 18 views. Only aggregate/per-seed intervention results are included alongside the final evaluation catalog.
+
+### Three additional experiments
+
+The [additional experiment directory](figures/new_experiments/) contains the plotting code, per-seed scalar CSVs, and runtime measurements. Rebuild it separately with:
+
+```sh
+python figures/new_experiments/plot_new_mechanisms.py \
+  --data figures/new_experiments/data \
+  --output figures/new_experiments/figures
+```
+
+- **Adaptation strength:** scale all decoded B factors by `s`, retaining A, so the effective update is multiplied by `s`. The grid is 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5 and 2. Nonzero settings use seeds 42–44; the independently measured zero-B control has n=1. This is a post-training strength sweep, separate from the training balance coefficient and KD mixing ratio.
+- **Injection-site ablation:** retain the 88 encoder sites, the eight Transformer decision-layer sites, or all 96 sites at the same trained checkpoint. The frozen description encoder is unchanged. The final scalar scorer has no LoRA. The trained conditions have n=3; the bare control has n=1.
+- **Runtime and resources:** the fixed seed-43 checkpoint is measured on one A800. Three separate process starts measure cold response including checkpoint SHA/I/O, restore, and numerical validation. Resident measurements use all 18 tasks, 10 warmups and 50 timing repetitions per cache mode. The native 4,096-token packing budget permits an oversized singleton: SCOTUS uses one 6,105-padded-token record; the other 17 tasks use four records and at most 1,800 padded tokens. Timing repetitions are not model seeds; standalone stage times are not summed. File sizes distinguish the student from the shared basis, frozen base and teacher library. Teacher-training compute is separate.
+
+[Adapter transformation helpers](schemajev/mechanisms.py) and [runtime measurement helpers](schemajev/runtime_benchmark.py) expose the integration APIs. They require the native model/runtime to execute an evaluation; the figure commands above use only committed scalars.
 
 ## Download and prepare data
 

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Validated process-cold timing for the fixed main checkpoint: three separate clean-GPU processes. Complete response includes source binding, checkpoint SHA/I/O, model restore, and the explicit TRAIN NUM check. OS page cache is uncontrolled; stage measurements are not summed.}
+\label{tab:cold-runtime}
+\begin{tabular}{llrr}
+\toprule
+Stage & Unit & Median & p90 \\
+\midrule
+Import/CUDA & s & 2.28 & 2.31 \\
+Source binding & s & 0.60 & 0.61 \\
+Restore/SHA I/O & s & 196.55 & 199.18 \\
+TRAIN NUM validation & s & 29.68 & 29.69 \\
+Batch preparation & s & 0.83 & 0.84 \\
+Adapter generation & ms & 24.22 & 25.16 \\
+First native query & ms & 46.69 & 63.00 \\
+Complete cold response & s & 233.57 & 235.56 \\
+\bottomrule
+\end{tabular}
+\end{table}

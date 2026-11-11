@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Fixed-checkpoint adapter-strength sensitivity on OOD6. Values are mean $\pm$ sample SD; Choice and Binary are percentages, and Score is NMAE $\times100$. Strength scales every decoded $B$ factor, retaining $A$. The $s=0$ point is one new zero-$B$ evaluation; the other points use three seeds.}
+\label{tab:adapter-strength-ood6}
+\begin{tabular}{ccrrr}
+\toprule
+$s$ & $n$ & Choice $\uparrow$ & Binary $\uparrow$ & Score $\downarrow$ \\
+\midrule
+0 & 1 & $45.34$ & $62.20$ & $35.93$ \\
+0.25 & 3 & $45.73 \pm 0.14$ & $72.77 \pm 0.47$ & $15.67 \pm 0.56$ \\
+0.5 & 3 & $46.28 \pm 0.56$ & $77.39 \pm 0.59$ & $13.42 \pm 0.45$ \\
+0.75 & 3 & $46.64 \pm 0.87$ & $80.09 \pm 0.79$ & $12.52 \pm 0.27$ \\
+1 & 3 & $46.92 \pm 1.25$ & $81.26 \pm 0.67$ & $12.25 \pm 0.37$ \\
+1.25 & 3 & $46.59 \pm 1.69$ & $82.27 \pm 0.45$ & $12.35 \pm 0.69$ \\
+1.5 & 3 & $46.00 \pm 2.25$ & $82.41 \pm 0.28$ & $12.68 \pm 0.97$ \\
+2 & 3 & $44.57 \pm 2.80$ & $82.37 \pm 0.31$ & $13.77 \pm 1.45$ \\
+\bottomrule
+\end{tabular}
+\end{table}

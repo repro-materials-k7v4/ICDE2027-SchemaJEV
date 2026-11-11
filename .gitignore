@@ -5,7 +5,10 @@ __pycache__/
 work/
 figures/figures/
 figures/appendix/
+figures/tables/
 figures/paper_figures.pdf
+figures/new_experiments/figures/
+figures/new_experiments/appendix_raw/
 *.pt
 *.safetensors
 *.npz

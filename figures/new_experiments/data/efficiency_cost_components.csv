@@ -1,0 +1,6 @@
+item,physical_bytes,scope,seconds
+base,678212562,"existing storage, not extra inference allocation",
+shared_PCA_basis,7364499744,"existing storage, not extra inference allocation",
+teacher_library_checkpoints,3624871620,"existing storage, not extra inference allocation",
+student_checkpoint,3751797,one fixed main43 checkpoint,
+teacher_training_compute,,missing is null; never zero,

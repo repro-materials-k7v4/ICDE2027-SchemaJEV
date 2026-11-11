@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Resident timing over the same first native microbatch for each of 18 tasks. Each task and mode has 50 measurements after 10 warmups. The absolute column averages task medians; the relative column averages each task's latency divided by its own uncached median. This is an internal cache comparison, not a speedup comparison against other methods.}
+\label{tab:resident-runtime}
+\begin{tabular}{lrr}
+\toprule
+Mode & Mean task median (ms) & Relative \\
+\midrule
+Uncached & 39.15 & 100.0\% \\
+Feature cache & 26.90 & 67.1\% \\
+Coordinate cache & 26.35 & 65.7\% \\
+Adapter cache & 23.96 & 59.2\% \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Fixed-checkpoint adapter-strength sensitivity on ALL18. Values are mean $\pm$ sample SD; Choice and Binary are percentages, and Score is NMAE $\times100$. Strength scales every decoded $B$ factor, retaining $A$. The $s=0$ point is one new zero-$B$ evaluation; the other points use three seeds.}
+\label{tab:adapter-strength-all18}
+\begin{tabular}{ccrrr}
+\toprule
+$s$ & $n$ & Choice $\uparrow$ & Binary $\uparrow$ & Score $\downarrow$ \\
+\midrule
+0 & 1 & $41.38$ & $56.82$ & $29.62$ \\
+0.25 & 3 & $53.52 \pm 0.33$ & $67.09 \pm 0.47$ & $16.77 \pm 0.29$ \\
+0.5 & 3 & $57.83 \pm 0.28$ & $73.41 \pm 0.86$ & $13.58 \pm 0.17$ \\
+0.75 & 3 & $59.81 \pm 0.47$ & $77.29 \pm 0.77$ & $12.35 \pm 0.04$ \\
+1 & 3 & $60.80 \pm 0.62$ & $78.79 \pm 0.56$ & $12.01 \pm 0.19$ \\
+1.25 & 3 & $60.98 \pm 0.46$ & $78.96 \pm 0.60$ & $12.23 \pm 0.40$ \\
+1.5 & 3 & $60.55 \pm 0.61$ & $78.62 \pm 0.59$ & $12.81 \pm 0.59$ \\
+2 & 3 & $58.62 \pm 0.56$ & $77.40 \pm 0.10$ & $14.70 \pm 0.82$ \\
+\bottomrule
+\end{tabular}
+\end{table}

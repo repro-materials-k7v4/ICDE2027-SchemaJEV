@@ -1,0 +1,2 @@
+figures/data/*.csv text eol=lf
+figures/new_experiments/data/*.csv text eol=lf

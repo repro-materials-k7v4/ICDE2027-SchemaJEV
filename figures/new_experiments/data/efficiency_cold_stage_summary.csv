@@ -1,0 +1,9 @@
+stage,scope,unit,n,median,p90,mean,sample_sd,min,max
+import_and_CUDA_context_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,2275.4471488296986,2308.99291485548,2279.798627831042,35.6049824512496,2246.5693783015013,2317.3793563619256
+static_source_binding_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,597.8338499553502,607.3500116355717,590.5729269919296,23.63830108323998,564.1558789648116,609.7290520556271
+exact_restore_SHA_IO_and_model_load_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,196552.49805375934,199178.3576488495,197520.86485751593,2012.802684274547,196175.27397116646,199834.82254762203
+original_TRAIN_NUM_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,29679.577907081693,29689.008507784456,28067.963803342234,2801.6126347332543,24832.94734498486,29691.366157960147
+native_batch_preparation_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,826.5518159605563,842.2514622099698,825.0029689321915,21.988778156332014,802.2807170636952,846.1763737723231
+adapter_generation_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,24.219888262450695,25.158303044736385,23.33937243868907,2.60777312875026,20.405322313308716,25.392906740307808
+native_query_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,46.69177997857332,62.996078096330166,46.60484582806627,20.51091204767486,26.05060487985611,67.07215262576938
+cold_validated_response_wall_ms,three separate clean-GPU process cold starts; OS page cache not forced cold,ms,3,233571.40568317845,235564.3819780089,233148.16937502474,3147.4895674123864,229810.47639017925,236062.6260517165
