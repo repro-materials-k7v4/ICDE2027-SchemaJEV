@@ -33,7 +33,7 @@ SECTIONS = (
         "The fixed panel contains 30,046 records. ID12 contains 12 internal held-out datasets with "
         "four datasets per task type. OOD6 contains six task-transfer views with two views per type. "
         "Binary and score views of Amazon Reviews occupy distinct columns.",
-        "The panel was selected post hoc. ID denotes internal held-out samples and OOD denotes "
+        "ID denotes internal held-out samples and OOD denotes "
         "task-view transfer. Each dataset keeps its fixed evaluation mask, answer options and score bins.",
     )),
     ("Plot configuration", (
